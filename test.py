@@ -3,7 +3,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="5347978er",
+    passwd="123456",
     database="testdb"
 )
 
@@ -15,5 +15,3 @@ mycursor = mydb.cursor()
 
 mycursor.execute("SHOW TABLES")
 
-for tb in mycursor:
-    print(tb)
